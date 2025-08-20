@@ -108,6 +108,7 @@ with torch.no_grad():  #在关闭梯度下降这一状态下
             total.append(1)
         else:
             total.append(0)
+    print("训练结果和标签相同为1 反之为0")
     print(total)
 
 

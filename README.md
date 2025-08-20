@@ -3,14 +3,14 @@
 这是一个使用 PyTorch 实现的、用于文本分类任务的简化版 Transformer 模型。项目旨在清晰地展示 Transformer Encoder 的核心组件，包括词嵌入、位置编码、多头自注意力机制和前馈神经网络。
 
 ## 文本结构
-'''
+```
 mini_transformer/
 ├── transformer.py       # Transformer模型核心组件的实现
 ├── train.py             # 数据处理、模型训练和评估的主程序
 ├── config.json          # 存放所有超参数的配置文件
 ├── loss_curve.png       # 训练后生成的损失曲线图
 └── README.md            # 本项目说明文件
-'''
+```
 
 ## 模型结构
 
